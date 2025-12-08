@@ -18,6 +18,3 @@ Datoteke
 
 
 
-
-1.  **Repo 1:** `SQL-DBA-Administration-Fundamentals` (Pokriva DBA i Server vještine)
-2.  **Repo 2:** `Advanced-SQL-Querying-and-Data-Modeling` (Pokriva Data Analyst vještine)
