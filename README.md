@@ -17,8 +17,8 @@ Kroz nju sam vježbala modeliranje jednostavne baze (Studenti, Predmeti, Ocjene)
 
 ### Rješavanje problema (Moj proces učenja)
 
-* Skripta uključuje i dio koda gdje sam **morala ispravljati strukturu tablice** (pogrešno upisano ime kolone i brisanje stranog ključa).
-* **Najvažnije:** Ostavila sam te korake da pokažem kako **pronalazim pogreške** (koristeći `sys.foreign_keys`) i kako ih **ispravljam** u realnom radu.
+* Skripta uključuje i dio koda gdje sam morala ispravljati strukturu tablice (pogrešno upisano ime kolone i brisanje stranog ključa).
+* **Najvažnije:** Ostavila sam te korake da pokažem kako pronalazim pogreške (koristeći `sys.foreign_keys`) i kako ih ispravljam u realnom radu.
 
 ### Datoteke
 * `3_Napredna_SQL_Analiza_Fakultet.sql`: Cijeli kod s kreiranjem baze, unosom podataka i analitičkim upitima.
