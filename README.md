@@ -1,17 +1,42 @@
-# Vježba SQL-a i Analize Podataka - Projekt "Fakultet"
+## About the Project
+This project demonstrates a complete SQL database design and analysis for a university student management system. It includes student records, course grades, and professor data, with queries covering data manipulation, aggregation, filtering, and joins.
 
-* **Napredno postavljanje upita:**
-    * Vježbala sam kako se koriste **
-    *
-    * GROUP BY i HAVING za filtriranje agregiranih rezultata (npr. 'Pronađi smjerove s više od X studenata').
-    * Koristila sam funkcije datuma, izračune (`AVG`, `COUNT`, `MAX`) i složene `WHERE` uvjete.
-* **JOINs:**
-    * Ovdje sam naučila spajati tri tablice odjednom koristeći INNER JOIN kako bih odgovorila na složene uvjete (npr. 'Tko je položio predmet kod prof. Ane Horvat s ocjenom većom od 3').
-* **Rad s bazama (DDL/DML):**
-    * Postavljanje same strukture baze CREATE/ALTER TABLE i dodavanje stranih ključeva FOREIGN KEY.
+The project was created as part of the Algebra DBA course, focusing on database design, data manipulation, and advanced SQL queries.
 
-### Rješavanje problema 
+##  Database Structure
+The database consists of three main tables:
 
-* Skripta uključuje i dio koda gdje sam morala ispravljati strukturu tablice (pogrešno upisano ime kolone i brisanje stranog ključa).
+- **Studenti** – student information (name, date of birth, index number, study program)
+- **Ocjene** – grades per student, including subject, score, and year
+- **Predmeti** – course details, including professor name
+
+## 📊 Key SQL Operations
+- Created and altered tables (`CREATE`, `ALTER`, `DROP`)
+- 
+- Inserted and updated data (`INSERT`, `UPDATE`)
+- 
+- Used aggregate functions (`COUNT`, `AVG`, `MAX`, `YEAR`)
+- 
+- Applied filtering with `WHERE`, `GROUP BY`, and `HAVING`
+- 
+- Joined multiple tables using `INNER JOIN`
+- 
+- Managed foreign keys and constraints
+
+## 🔍 Sample Queries
+- Average birth year of students per study program
+- 
+- Students born after 1990, sorted by birth date
+- 
+- Number of students per study program
+- 
+- Students with grades higher than 3 in specific subjects
+- 
+- Joining three tables to retrieve student names, course names, and grades for a specific professor
+
+## 🛠️ Tools Used
+- Microsoft SQL Server
+- T-SQL
+
    
 
