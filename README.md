@@ -10,7 +10,7 @@ The database consists of three main tables:
 - **Ocjene** – grades per student, including subject, score, and year
 - **Predmeti** – course details, including professor name
 
-## 📊 Key SQL Operations
+##  Key SQL Operations
 - Created and altered tables (`CREATE`, `ALTER`, `DROP`)
 - 
 - Inserted and updated data (`INSERT`, `UPDATE`)
@@ -23,7 +23,7 @@ The database consists of three main tables:
 - 
 - Managed foreign keys and constraints
 
-## 🔍 Sample Queries
+##  Sample Queries
 - Average birth year of students per study program
 - 
 - Students born after 1990, sorted by birth date
@@ -34,7 +34,7 @@ The database consists of three main tables:
 - 
 - Joining three tables to retrieve student names, course names, and grades for a specific professor
 
-## 🛠️ Tools Used
+##  Tools Used
 - Microsoft SQL Server
 - T-SQL
 
